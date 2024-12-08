@@ -1,0 +1,7 @@
+services:
+  mock:
+    build:
+      context: .
+      dockerfile: ./mock/Dockerfile
+    ports:
+      - "8080:8080"
