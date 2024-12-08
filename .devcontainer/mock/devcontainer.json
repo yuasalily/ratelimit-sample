@@ -23,7 +23,8 @@
 				"workbench.tree.renderIndentGuides": "always",
 				"editor.codeActionsOnSave": {
 					"source.organizeImports": "explicit"
-				}
+				},
+				"go.formatTool": "goimports"
 			}
 		}
 	},
