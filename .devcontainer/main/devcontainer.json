@@ -1,5 +1,5 @@
 {
-	"name": "Ratelimit Sample",
+	"name": "Ratelimit Main",
 	"dockerComposeFile": "./docker-compose.yaml",
 	"service": "dind",
 	"workspaceFolder": "/app",
@@ -26,5 +26,6 @@
 				}
 			}
 		}
-	}
+	},
+	"remoteUser": "root"
 }

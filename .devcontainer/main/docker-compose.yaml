@@ -9,4 +9,4 @@ services:
     container_name: ratelimit_sample
     privileged: true
     volumes:
-      - ../:/app/
+      - ../../:/app/
