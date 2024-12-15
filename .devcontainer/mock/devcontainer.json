@@ -1,0 +1,36 @@
+{
+    "name": "Mock Container",
+    "dockerComposeFile": "../../docker-compose.yaml",
+    "service": "mock",
+    "workspaceFolder": "/workspace/mock",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "christian-kohler.path-intellisense",
+                "vadimcn.vscode-lldb",
+                "golang.go"
+            ],
+            "settings": {
+                "git.openRepositoryInParentFolders": "always",
+                "files.autoSave": "onFocusChange",
+                "files.trimFinalNewlines": true,
+                "files.trimTrailingWhitespace": true,
+                "editor.minimap.enabled": false,
+                "editor.fontSize": 16,
+                "editor.bracketPairColorization.enabled": true,
+                "editor.copyWithSyntaxHighlighting": false,
+                "editor.formatOnSave": true,
+                "editor.inlayHints.enabled": "on",
+                "workbench.editor.enablePreview": false,
+                "workbench.editor.enablePreviewFromQuickOpen": false,
+                "workbench.tree.renderIndentGuides": "always",
+                "editor.codeActionsOnSave": {
+                  "source.organizeImports": "explicit"
+                }
+            }
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {}
+    }
+}

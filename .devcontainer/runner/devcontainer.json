@@ -1,0 +1,28 @@
+{
+    "name": "Runner Container",
+    "dockerComposeFile": "../../docker-compose.yaml",
+    "service": "runner",
+    "workspaceFolder": "/workspace/runner",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "git.openRepositoryInParentFolders": "always",
+                "files.autoSave": "onFocusChange",
+                "files.trimFinalNewlines": true,
+                "files.trimTrailingWhitespace": true,
+                "editor.minimap.enabled": false,
+                "editor.fontSize": 16,
+                "editor.bracketPairColorization.enabled": true,
+                "editor.copyWithSyntaxHighlighting": false,
+                "editor.formatOnSave": true,
+                "editor.inlayHints.enabled": "on",
+                "workbench.editor.enablePreview": false,
+                "workbench.editor.enablePreviewFromQuickOpen": false,
+                "workbench.tree.renderIndentGuides": "always",
+                "editor.codeActionsOnSave": {
+                  "source.organizeImports": "explicit"
+                }
+            }
+        }
+    }
+}
